@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .layers import GraphConvolutionMulti, GraphConvolutionSparseMulti, \
     DistMultDecoder, InnerProductDecoder, DEDICOMDecoder, BilinearDecoder
