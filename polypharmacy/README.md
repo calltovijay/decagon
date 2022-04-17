@@ -14,15 +14,15 @@ The full polypharmacy dataset (described in the paper) is available on the
 [project website](http://snap.stanford.edu/decagon). To run the code on the full dataset first download all data files
 from the [project website](http://snap.stanford.edu/decagon) and untar the same under the <project dir>/polypharmacy folder. The polypharmacy folder will look like below.
 	
-<checked out dir>/polypharmacy
-	bio-decagon-combo.csv
-	bio-decagon-effectcategories.csv
-	bio-decagon-mono.csv
-	bio-decagon-ppi.csv
-	bio-decagon-targets-all.csv
-	bio-decagon-targets.csv
-	Exploratory Analysis.ipynb
-	README.md
+<checked out dir>/polypharmacy<br>
+	bio-decagon-combo.csv<br>
+	bio-decagon-effectcategories.csv<br>
+	bio-decagon-mono.csv<br>
+	bio-decagon-ppi.csv<br>
+	bio-decagon-targets-all.csv<br>
+	bio-decagon-targets.csv<br>
+	Exploratory Analysis.ipynb<br>
+	README.md<br>
 	utility.py
 	
 Now, we all set to run the Exploratory Analysis.ipynb python notebook and study the Molecular Network and Polypharmacy data.
