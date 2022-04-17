@@ -27,7 +27,7 @@ def load_combo_se(fname='bio-decagon-combo.csv'):
 # and a dictionary that maps each gene ID to a number
 def load_ppi(fname='bio-decagon-ppi.csv'):
     fin = open(fname)
-    print ('Reading: %s' % fname)
+    print ('Reading ppi: %s' % fname)
     fin.readline()
     edges = []
     for line in fin:
@@ -39,7 +39,7 @@ def load_ppi(fname='bio-decagon-ppi.csv'):
     net = nx.Graph()
     net.add_edges_from(edges)
     net.remove_nodes_from(nx.isolates(net))
-    net.remove_edges_from(net.selfloop_edges())
+    net.remove_edges_from(nx.selfloop_edges(net))
     node2idx = {node: i for i, node in enumerate(net.nodes())}
     return net, node2idx
 
