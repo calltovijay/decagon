@@ -12,7 +12,7 @@ Clone this https://github.com/calltovijay/decagon git repo.
 
 The full polypharmacy dataset (described in the paper) is available on the 
 [project website](http://snap.stanford.edu/decagon). To run the code on the full dataset first download all data files
-from the [project website](http://snap.stanford.edu/decagon) and untar the same under the project **checked out dir**/polypharmacy folder. The polypharmacy folder will look like below.
+from the [project website](http://snap.stanford.edu/decagon) and untar the same under the project **checked out dir**/polypharmacy folder. The folder structure will look like below.
 	
 **checked out dir**/polypharmacy<br>
 	bio-decagon-combo.csv<br>
