@@ -1,4 +1,4 @@
-# Exploratory Data Analysis of Molecular Network and Polypharmacy data
+# Exploratory Data Analysis of Polypharmacy Dataset
 
 #### [Project website](http://snap.stanford.edu/decagon)
 
