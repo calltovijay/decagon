@@ -16,14 +16,14 @@ from the [project website](http://snap.stanford.edu/decagon) and untar the same 
 	
 **checked out dir**/polypharmacy<br>
 <pre>
-	bio-decagon-combo.csv<br>
-	bio-decagon-effectcategories.csv<br>
-	bio-decagon-mono.csv<br>
-	bio-decagon-ppi.csv<br>
-	bio-decagon-targets-all.csv<br>
-	bio-decagon-targets.csv<br>
-	Exploratory Analysis.ipynb<br>
-	README.md<br>
+	bio-decagon-combo.csv
+	bio-decagon-effectcategories.csv
+	bio-decagon-mono.csv
+	bio-decagon-ppi.csv
+	bio-decagon-targets-all.csv
+	bio-decagon-targets.csv
+	Exploratory Analysis.ipynb
+	README.md
 	utility.py
 </pre>	
 Now, we all set to run the Exploratory Analysis.ipynb python notebook and study the Molecular Network and Polypharmacy data.
