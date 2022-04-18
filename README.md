@@ -33,9 +33,7 @@ the learned embeddings to predict side effects of drug combinations.
 ### Running the code
 
 The setup for the polypharmacy problem on a synthetic dataset is outlined in `main.py`. It uses a small synthetic 
-network example with five edge types. Run the code as following:
-
-    $ python main.py
+network example with five edge types. Run the code as mentioned in the Decagon_Algorithm_with_Synthetic_Dataset.ipynb notebook after cloning the repo from the git url https://github.com/calltovijay/decagon. 
     
 The full polypharmacy dataset (described in the paper) is available on the 
 [project website](http://snap.stanford.edu/decagon). To run the code on the full dataset first download all data files
@@ -67,11 +65,8 @@ best might depend on a concrete use case.
 
 ## Requirements
 
-Decagon is tested to work under Python 2 and Python 3. 
+Decagon is tested to work under Python 3 and updated the requirements.txt accordingly. Please follow the steps given in Decagon_Algorithm_with_Synthetic_Dataset.ipynb notebook. 
 
-Recent versions of Tensorflow, sklearn, networkx, numpy, and scipy are required. All the required packages can be installed using the following command:
-
-    $ pip install -r requirements.txt
 
 ## License
 
